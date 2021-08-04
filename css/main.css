@@ -1,0 +1,76 @@
+html {
+  height: -webkit-fill-available;
+}
+
+body {
+  background-color: #95a5a6;
+  margin: 0px; /* 브라우저 자체 기본 margin 없애기 */
+  /* height: 100vh; '-webkit-fill-available'이 유효하지 않을 경우를 대비 */
+  margin-top: 5%;
+}
+
+.container {
+  overflow: hidden;
+}
+
+#logo {
+  max-width: 150px;
+  width: 40%;
+  height: auto;
+  display: block;
+}
+
+#logo:hover {
+  cursor: pointer;
+}
+
+#logoDetail {
+  margin: 5%;
+  margin-bottom: 0;
+  font-size: xx-small;
+  display: none;
+}
+
+.title {
+  padding-bottom: 0;
+  margin-bottom: 0;
+  text-align: center;
+  font-size: x-small;
+  font-weight: bold;
+}
+
+#content {
+  display: block;
+  margin-top: 5%;
+  width: 80%;
+  max-height: 50%;
+  font-size: small;
+  border: 1px solid #7f8c8d;
+}
+
+#detail {
+  font-size: x-small;
+  text-decoration-line: underline;
+}
+
+#detail:hover {
+  cursor: pointer;
+  color: #3498db;
+}
+
+#footer { 
+  position: absolute; 
+  bottom: 5%; 
+  width: 80%; 
+}
+
+.goSecond {
+  border: 1px solid ;
+  text-align: center;
+}
+
+.goSecond:hover {
+  cursor: pointer;
+  color: #ecf0f1;
+  border: 1px solid #ecf0f1;
+}
