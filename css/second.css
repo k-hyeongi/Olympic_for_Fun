@@ -1,0 +1,35 @@
+.footer2 {
+  position: fixed;
+  bottom: 5%;
+  left: 50%;
+  width: 80%;
+  transform: translateX( -50% );
+}
+
+#goFirst {
+  text-align: center;
+  border: 1px solid #ecf0f1;
+  margin-left: 10%;
+  background-color: #ecf0f1;
+}
+
+#goFirst:hover {
+  cursor: pointer;
+  color: #ecf0f1;
+  border: 1px solid black;
+  background-color: black;
+}
+
+#goThird {
+  text-align: center;
+  border: 1px solid #ecf0f1;
+  margin-right: 10%;
+  background-color: #ecf0f1;
+}
+
+#goThird:hover {
+  cursor: pointer;
+  color: #ecf0f1;
+  border: 1px solid black;
+  background-color: black;
+}
