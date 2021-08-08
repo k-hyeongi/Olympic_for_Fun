@@ -1,5 +1,28 @@
-.footer2 {
+.container2 {
+  height: auto;
+  overflow: auto;
+}
+
+/* 종목들 관련 css */
+.event {
+  overflow: hidden;
+  border: 1px solid black;
+  height: 15vh;
+} 
+
+.event > span {
+  vertical-align: top;
+}
+
+.event:hover {
+  cursor: pointer;
+  background-color: #7f8c8d;
+}
+
+/* footer 관련 css */
+.tableFooter {
   position: fixed;
+  flex-direction: row;
   bottom: 5%;
   left: 50%;
   width: 80%;

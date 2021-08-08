@@ -81,3 +81,16 @@ body {
   border: 1px solid black;
   background-color: black; 
 }
+
+#goBack {
+  border: 1px solid #ecf0f1;
+  background-color: #ecf0f1; 
+  text-align: center;
+}
+
+#goBack:hover {
+  cursor: pointer;
+  color: #ecf0f1;
+  border: 1px solid black;
+  background-color: black; 
+}
